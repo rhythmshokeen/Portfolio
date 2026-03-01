@@ -1,0 +1,898 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rhythm Shokeen — AI Engineer & Computer Vision Developer</title>
+    <meta
+      name="description"
+      content="Rhythm Shokeen is an Artificial Intelligence Engineer specializing in Computer Vision, Deep Learning, and Python-based Automation. Explore projects, skills, and experience."
+    />
+    <meta
+      name="keywords"
+      content="AI Engineer, Computer Vision, Deep Learning, Python, Automation, Rhythm Shokeen, Portfolio"
+    />
+    <meta name="author" content="Rhythm Shokeen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ======================== NAVIGATION ======================== -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">
+          <span class="logo-bracket">&lt;</span>RS<span class="logo-bracket">
+            /&gt;</span
+          >
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+          <li>
+            <a href="#hero" class="nav-link active" data-section="hero">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link" data-section="about">About</a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link" data-section="projects"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#experience" class="nav-link" data-section="experience"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <a href="#education" class="nav-link" data-section="education"
+              >Education</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-link" data-section="contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="nav-actions">
+          <a href="assets/images/Resume_RhythmShokeen.pdf" class="btn btn-nav-resume" id="nav-resume-btn" download>
+            <i class="fas fa-download"></i> Resume
+          </a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ======================== HERO SECTION ======================== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-animation">
+        <div class="hero-grid"></div>
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+        <div class="hero-glow hero-glow-3"></div>
+        <!-- Floating particles -->
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+        <div class="particle particle-5"></div>
+        <div class="particle particle-6"></div>
+        <div class="particle particle-7"></div>
+        <div class="particle particle-8"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero-name">
+          <span class="hero-greeting">Hello, I'm</span>
+          <span class="hero-name-text">Rhythm Shokeen</span>
+        </h1>
+        <div class="hero-title">
+          <span class="hero-title-prefix">I'm a </span>
+          <span class="typed-text" id="typed-text"></span>
+          <span class="cursor">|</span>
+        </div>
+        <p class="hero-description">
+          I design and build intelligent systems that automate engineering and
+          real-world workflows using AI.
+          <br />
+          <span class="hero-sub"
+            >Specializing in Computer Vision, Deep Learning, and Python-based
+            Automation.</span
+          >
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-rocket"></i> View Projects
+          </a>
+          <a href="assets/images/Resume_RhythmShokeen.pdf" class="btn btn-secondary" id="hero-resume-btn" download>
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-envelope"></i> Contact Me
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-target="4">0</span>+
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="5">0</span>+
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="2">0</span>+
+            <span class="stat-label">Years Learning</span>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <span>Scroll Down</span>
+      </a>
+    </section>
+
+    <!-- ======================== ABOUT SECTION ======================== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fas fa-user"></i> About Me</span>
+          <h2 class="section-title">
+            Turning Ideas into
+            <span class="gradient-text">Intelligent Systems</span>
+          </h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-image-wrapper reveal-left">
+            <div class="about-image-card">
+              <div class="about-avatar">
+                <img src="assets/images/profile.png" alt="Rhythm Shokeen" class="avatar-photo" />
+              </div>
+              <div class="about-image-decoration"></div>
+            </div>
+            <div class="about-info-cards">
+              <div class="info-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>India</span>
+              </div>
+              <div class="info-card">
+                <i class="fas fa-graduation-cap"></i>
+                <span>B.Tech CSE (AI&ML)</span>
+              </div>
+              <div class="info-card">
+                <i class="fas fa-brain"></i>
+                <span>AI Enthusiast</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-content reveal-right">
+            <p class="about-text">
+              I am a Computer Science and
+              Engineering student specializing in
+              <span class="highlight"
+                >Artificial Intelligence and Machine Learning</span
+              >
+              at Manipal University Jaipur.
+            </p>
+            <p class="about-text">
+              He focuses on building practical AI systems that solve real
+              engineering and automation problems. His expertise includes
+              <span class="highlight">computer vision</span>,
+              <span class="highlight">deep learning</span>, and
+              <span class="highlight">Python automation</span>, with hands-on
+              experience developing custom object detection models, AutoCAD
+              automation tools, and secure real-time communication systems.
+            </p>
+            <p class="about-text">
+              He is deeply interested in applying AI to industrial workflows,
+              engineering systems, and intelligent automation. His goal is to
+              become a highly skilled AI engineer and contribute to building
+              impactful intelligent technologies.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon"><i class="fas fa-eye"></i></div>
+                <div>
+                  <h4>Computer Vision</h4>
+                  <p>Custom object detection & image analysis</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon"><i class="fas fa-cogs"></i></div>
+                <div>
+                  <h4>Automation</h4>
+                  <p>Python-based engineering workflow tools</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fas fa-network-wired"></i>
+                </div>
+                <div>
+                  <h4>Deep Learning</h4>
+                  <p>Model training & deployment</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== SKILLS SECTION ======================== -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fas fa-code"></i> Skills</span>
+          <h2 class="section-title">
+            My Technical <span class="gradient-text">Arsenal</span>
+          </h2>
+        </div>
+        <div class="skills-grid">
+          <!-- Languages -->
+          <div class="skill-category-card reveal-up">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <i class="fas fa-terminal"></i>
+              </div>
+              <h3>Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">C/C++</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">HTML/CSS</span>
+            </div>
+          </div>
+
+          <!-- Frameworks & Libraries -->
+          <div class="skill-category-card reveal-up">
+            <div class="skill-category-header">
+              <div class="skill-category-icon icon-dev">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3>Frameworks &amp; Libraries</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">FastAPI</span>
+              <span class="skill-tag">TensorFlow</span>
+            </div>
+          </div>
+
+          <!-- AI & Machine Learning -->
+          <div class="skill-category-card reveal-up">
+            <div class="skill-category-header">
+              <div class="skill-category-icon icon-ai">
+                <i class="fas fa-brain"></i>
+              </div>
+              <h3>AI &amp; Machine Learning</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Machine Learning</span>
+              <span class="skill-tag">NLP</span>
+              <span class="skill-tag">Computer Vision</span>
+              <span class="skill-tag">RAG</span>
+              <span class="skill-tag">Deep Learning</span>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-category-card reveal-up">
+            <div class="skill-category-header">
+              <div class="skill-category-icon icon-tools">
+                <i class="fas fa-database"></i>
+              </div>
+              <h3>Databases</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">Supabase</span>
+              <span class="skill-tag">Firebase</span>
+            </div>
+          </div>
+
+          <!-- Cloud & DevOps -->
+          <div class="skill-category-card reveal-up">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <i class="fas fa-cloud"></i>
+              </div>
+              <h3>Cloud &amp; DevOps</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">AWS EC2</span>
+              <span class="skill-tag">Docker</span>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-category-card reveal-up">
+            <div class="skill-category-header">
+              <div class="skill-category-icon icon-tools">
+                <i class="fas fa-wrench"></i>
+              </div>
+              <h3>Tools</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== PROJECTS SECTION ======================== -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"
+            ><i class="fas fa-folder-open"></i> Projects</span
+          >
+          <h2 class="section-title">
+            Featured <span class="gradient-text">Work</span>
+          </h2>
+        </div>
+        <div class="projects-grid">
+          
+          
+          <!-- Project 1 -->
+          <div class="project-card reveal-up" id="project-3">
+            <div class="project-image">
+              <img
+                src="assets/images/project3.png"
+                alt="Secure Peer-to-Peer File Transfer"
+              />
+              <div class="project-overlay">
+                <div class="project-overlay-actions">
+                  <a href="#" class="project-action-btn" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-action-btn" title="Live Demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <span class="project-category-badge badge-dev"
+                >SaaS Product</span
+              >
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">
+                The GameOn Co. - Built for progression, not popularity.
+              </h3>
+              <p class="project-description">
+                Developed this platform so that people who are passionate about sports can connect with each other and play sports together for a synergical growth.
+              </p>
+              <div class="project-tags">
+                <span>TypeScript</span>
+                <span>JavaScript</span>
+                <span>Shell</span>
+                <span>Docker</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm btn-primary">
+                  <i class="fab fa-github"></i> Code
+                </a>
+                <a href="#" class="btn btn-sm btn-outline">
+                  <i class="fas fa-external-link-alt"></i> Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          
+
+          <!-- Project 2 -->
+          <div class="project-card reveal-up" id="project-2">
+            <div class="project-image">
+              <img
+                src="assets/images/project2.png"
+                alt="HyperDock - Cargo Management System for International Space Station"
+              />
+              <div class="project-overlay">
+                <div class="project-overlay-actions">
+                  <a href="#" class="project-action-btn" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-action-btn" title="Live Demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <span class="project-category-badge badge-automation"
+                >Full Stack</span
+              >
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">
+                HyperDock - Cargo Management System for International Space Stations
+              </h3>
+              <p class="project-description">
+                HyperDock is a FastAPI-based space cargo management system that simulates and optimizes cargo storage, placement, and tracking in a space logistics environment.
+              </p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>CSS</span>
+                <span>HTML</span>
+                <span>Docker</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm btn-primary">
+                  <i class="fab fa-github"></i> Code
+                </a>
+                <a href="#" class="btn btn-sm btn-outline">
+                  <i class="fas fa-external-link-alt"></i> Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3-->
+          <div class="project-card reveal-up" id="project-1">
+            <div class="project-image">
+              <img
+                src="assets/images/img99.png"
+                alt="Engineering Diagram Object Detection"
+              />
+              <div class="project-overlay">
+                <div class="project-overlay-actions">
+                  <a href="#" class="project-action-btn" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-action-btn" title="Live Demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <span class="project-category-badge"
+                >Computer Vision</span
+              >
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">
+                Engineering Diagram Object Detection using YOLOv8
+              </h3>
+              <p class="project-description">
+                Developed a custom trained YOLOv8 model to detect and identify
+                components in engineering P&ID diagrams. This system automates
+                component recognition and reduces manual inspection time.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>YOLOv8</span>
+                <span>OpenCV</span>
+                <span>Deep Learning</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm btn-primary">
+                  <i class="fab fa-github"></i> Code
+                </a>
+                <a href="#" class="btn btn-sm btn-outline">
+                  <i class="fas fa-external-link-alt"></i> Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Project 4 -->
+          <div class="project-card reveal-up" id="project-4">
+            <div class="project-image">
+              <img
+                src="assets/images/project4.png"
+                alt="AI-Based Drawing Intelligence System"
+              />
+              <div class="project-overlay">
+                <div class="project-overlay-actions">
+                  <a href="#" class="project-action-btn" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-action-btn" title="Live Demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <span class="project-category-badge"
+                >Software Engineering</span
+              >
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">
+                100-days-100-projects
+              </h3>
+              <p class="project-description">
+                A collection of 100 projects built over 100 days to showcase my skills, creativity, and problem-solving abilities.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>C++</span>
+                <span>Full Stack</span>
+                <span>Database Management</span>
+                <span>Backend + Systems</span>
+                <span>AI + ML</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm btn-primary">
+                  <i class="fab fa-github"></i> Code
+                </a>
+                <a href="#" class="btn btn-sm btn-outline">
+                  <i class="fas fa-external-link-alt"></i> Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== EXPERIENCE SECTION ======================== -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"
+            ><i class="fas fa-briefcase"></i> Experience</span
+          >
+          <h2 class="section-title">
+            Professional <span class="gradient-text">Journey</span>
+          </h2>
+        </div>
+        <div class="timeline">
+
+          <!-- Experience 2 -->
+          <div class="timeline-item reveal-right">
+            <div class="timeline-marker">
+              <i class="fas fa-pen-nib"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-date">
+                <i class="fas fa-calendar-alt"></i> Jul 2025 — Jan 2026
+              </div>
+              <h3 class="timeline-title">Head of Content, Media & Editorial</h3>
+              <p class="timeline-company">IEEE AESS · Full-time</p>
+              <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan, India · On-site</p>
+              <div class="timeline-tags">
+                <span>Photography</span>
+                <span>Content Strategy</span>
+                <span>Editorial</span>
+                <span>Media</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="timeline-item reveal-left">
+            <div class="timeline-marker">
+              <i class="fas fa-hashtag"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-date">
+                <i class="fas fa-calendar-alt"></i> Apr 2025 — Dec 2025
+              </div>
+              <h3 class="timeline-title">Core Committee Member</h3>
+              <p class="timeline-company">MUJHackX · Full-Time</p>
+              <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan, India · On-site</p>
+              <div class="timeline-tags">
+                <span>Social Media</span>
+                <span>Content Creation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 4 -->
+          <div class="timeline-item reveal-right">
+            <div class="timeline-marker">
+              <i class="fas fa-flask"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-date">
+                <i class="fas fa-calendar-alt"></i> Jun 2025 — Jul 2025
+              </div>
+              <h3 class="timeline-title">Research And Development Intern</h3>
+              <p class="timeline-company">Siemens Energy · Internship</p>
+              <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Gurugram, Haryana, India · On-site</p>
+              <div class="timeline-tags">
+                <span>Computer Vision</span>
+                <span>Machine Learning</span>
+                <span>Research & Development</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 5 -->
+          <div class="timeline-item reveal-left">
+            <div class="timeline-marker">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-date">
+                <i class="fas fa-calendar-alt"></i> Jan 2025 — Jun 2025
+              </div>
+              <h3 class="timeline-title">Social Media Manager</h3>
+              <p class="timeline-company">AIML Community · Full-time</p>
+              <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan, India · On-site</p>
+              <div class="timeline-tags">
+                <span>Social Media</span>
+                <span>Community Management</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 6 -->
+          <div class="timeline-item reveal-right">
+            <div class="timeline-marker">
+              <i class="fab fa-google"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-date">
+                <i class="fas fa-calendar-alt"></i> Oct 2024 — Apr 2025
+              </div>
+              <h3 class="timeline-title">Member</h3>
+              <p class="timeline-company">Google Developer Groups</p>
+              <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan, India · On-site</p>
+              <div class="timeline-tags">
+                <span>Developer Community</span>
+                <span>Cloud Services</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 7 -->
+          <div class="timeline-item reveal-left">
+            <div class="timeline-marker">
+              <i class="fas fa-feather-alt"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-date">
+                <i class="fas fa-calendar-alt"></i> Jan 2024 — Mar 2024
+              </div>
+              <h3 class="timeline-title">Content Writer & Volunteer</h3>
+              <p class="timeline-company">Marpu Foundation · Internship</p>
+              <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan, India · Hybrid</p>
+              <div class="timeline-tags">
+                <span>Content Writing</span>
+                <span>Social Work</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 9 -->
+          <div class="timeline-item reveal-left">
+            <div class="timeline-marker">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-date">
+                <i class="fas fa-calendar-alt"></i> Oct 2023 — Dec 2023
+              </div>
+              <h3 class="timeline-title">Intern - BECON'24</h3>
+              <p class="timeline-company">Indian Institute of Technology, Delhi · Part-time</p>
+              <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Delhi, India</p>
+              <div class="timeline-tags">
+                <span>Team Management</span>
+                <span>Technology</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== EDUCATION SECTION ======================== -->
+    <section class="section education" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"
+            ><i class="fas fa-graduation-cap"></i> Education</span
+          >
+          <h2 class="section-title">
+            Academic <span class="gradient-text">Background</span>
+          </h2>
+        </div>
+        <div class="education-card reveal-up">
+          <div class="education-icon">
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="education-content">
+            <div class="education-date">
+              <i class="fas fa-calendar-alt"></i> 2024 — 2028
+            </div>
+            <h3 class="education-degree">
+              B.Tech Computer Science and Engineering
+            </h3>
+            <p class="education-specialization">
+              <i class="fas fa-star"></i> Specialization: Artificial
+              Intelligence and Machine Learning
+            </p>
+            <p class="education-university">
+              <i class="fas fa-map-marker-alt"></i> Manipal University Jaipur
+            </p>
+          </div>
+          <div class="education-decoration">
+            <div class="edu-circle edu-circle-1"></div>
+            <div class="edu-circle edu-circle-2"></div>
+            <div class="edu-circle edu-circle-3"></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== CONTACT SECTION ======================== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"
+            ><i class="fas fa-paper-plane"></i> Contact</span
+          >
+          <h2 class="section-title">
+            Let's Work <span class="gradient-text">Together</span>
+          </h2>
+          <p class="section-subtitle">
+            Have a project in mind or just want to say hello? I'd love to hear
+            from you.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal-left">
+            <div class="contact-info-card">
+              <div class="contact-info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:rhythmshokeen@gmail.com"
+                  >imrhythmshokeen@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <span>New Delhi, India</span>
+              </div>
+            </div>
+            <div class="contact-socials">
+              <h4>Find me on</h4>
+              <div class="social-links">
+                <a
+                  href="https://github.com/rhythmshokeen"
+                  class="social-link"
+                  title="GitHub"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/rhythm-shokeen/"
+                  class="social-link"
+                  title="LinkedIn"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://x.com/RhythmShokeen"
+                  class="social-link"
+                  title="X (Twitter)"
+                  aria-label="X (Twitter)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-x-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form reveal-right" id="contact-form" action="https://formspree.io/f/xdalvawq" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="John Doe"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john@example.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell me about your project..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== FOOTER ======================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <a href="#hero" class="footer-logo">
+              <span class="logo-bracket">&lt;</span>RS<span
+                class="logo-bracket"
+              >
+                /&gt;</span
+              >
+            </a>
+            <p>Designing intelligent systems that make a difference.</p>
+          </div>
+          <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer-socials">
+            <a href="https://github.com/rhythmshokeen" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rhythm-shokeen/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://x.com/RhythmShokeen" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Rhythm Shokeen. All rights reserved.</p>
+          <p>
+            Built with
+            <i class="fas fa-heart" style="color: var(--primary)"></i> and lots
+            of code.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
