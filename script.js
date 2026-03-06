@@ -20,11 +20,11 @@ function initTypingAnimation() {
   if (!typedTextEl) return;
 
   const titles = [
-    "Artificial Intelligence Engineer",
-    "Computer Vision Developer",
     "Machine Learning Engineer",
+    "Computer Vision Developer",
+    "Founder",
     "Full-Stack Developer",
-    "AI Systems Developer",
+    "Artificial Intelligence Engineer",
   ];
 
   let titleIndex = 0;
